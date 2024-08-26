@@ -1,0 +1,26 @@
+body            {
+                        background-color: #000ea4;
+}
+.miaoshu {      
+                        text-align: center;
+                        color: aliceblue;
+                        margin: 0 auto;
+                        padding: 200px;
+}
+
+a:link {
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+a:visited {
+    color:rgb(237, 237, 239);
+    text-decoration:none;
+}
+a:hover {
+    color:rgb(0, 157, 219);
+    text-decoration:none;
+}
+a:active {
+    color:black;
+    text-decoration:none;
+}
