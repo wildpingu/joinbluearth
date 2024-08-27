@@ -25,10 +25,11 @@ body {
 /* 文字样式 */
 .text {
     position: absolute; /* 绝对定位，相对于body定位 */
-    top: 47%; /* 垂直居中 */
+    top: 50%; /* 垂直居中 */
     left: 50%; /* 水平居中 */
     transform: translate(-50%, -50%); /* 使用CSS transform属性进行居中调整 */
     color: aliceblue; /* 文字颜色，可以根据需要调整 */
+    font-family: sans-serif;
     font-size: 20px; /* 文字大小，可以根据需要调整 */
     font-weight: bold; /* 文字加粗，可以根据需要调整 */
     text-align: center; /* 文字水平居中 */
@@ -50,4 +51,3 @@ a:active {
                 color:rgb(255, 255, 255);
                 text-decoration:none;
             }
-
