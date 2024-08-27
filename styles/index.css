@@ -51,3 +51,27 @@ a:active {
                 color:rgb(255, 255, 255);
                 text-decoration:none;
             }
+@media (max-width: 768px) {
+    body {
+        /* 移动设备上可能不需要背景图片，或者可以降低图片质量 */
+        background-image: url('images/bluesea-mobile.jpg'); /* 为移动设备提供不同或更小的图片 */
+    }
+
+    .image {
+        /* 移动设备上图片宽度设置为100%，以适应屏幕宽度 */
+        width: 100%;
+        height: auto; /* 高度自适应，保持图片比例 */
+    }
+
+    .text {
+        /* 移动设备上可能需要调整文字大小以提高可读性 */
+        font-size: 16px; /* 减小文字大小以适应较小的屏幕 */
+    }
+}
+
+/* 媒体查询，针对更小的屏幕，例如某些手机 */
+@media (max-width: 480px) {
+    .text {
+        font-size: 14px; /* 进一步减小文字大小 */
+    }
+}
